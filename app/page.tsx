@@ -1,14 +1,15 @@
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
+import HomeInfo from "@/components/HomeInfo";
 import Navbar from "@/components/Navbar";
-import global from "@/styles/global.css";
 
 export default function Home() {
   return (
-    <main>
+    <main className="min-h-screen bg-linear-to-b from-slate-50 via-white to-slate-100 text-slate-900">
       <Navbar />
       <Hero />
       <Features />
+      <HomeInfo />
     </main>
   );
 }
