@@ -1,6 +1,6 @@
 // lib/chunker.ts
 import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
-import { Document } from "langchain/document";
+import { Document } from "@langchain/core/documents";
 
 /**
  * Configuration for the text splitter.

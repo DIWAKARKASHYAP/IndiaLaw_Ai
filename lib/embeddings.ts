@@ -1,6 +1,6 @@
 // lib/embeddings.ts
 import { GoogleGenerativeAIEmbeddings } from "@langchain/google-genai";
-import { Document } from "langchain/document";
+import { Document } from "@langchain/core/documents";
 import { ChunkMetadata } from "./chunker";
 
 /**
